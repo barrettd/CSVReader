@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F12D1F020EFA37E007804CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12D1EF20EFA37E007804CA /* AppDelegate.swift */; };
+		6F12D1F220EFA37E007804CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12D1F120EFA37E007804CA /* ViewController.swift */; };
+		6F12D1F520EFA37E007804CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F12D1F320EFA37E007804CA /* Main.storyboard */; };
+		6F12D1F720EFA380007804CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F12D1F620EFA380007804CA /* Assets.xcassets */; };
+		6F12D1FA20EFA380007804CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F12D1F820EFA380007804CA /* LaunchScreen.storyboard */; };
+		6F12D20520EFA380007804CA /* CsvReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12D20420EFA380007804CA /* CsvReaderTests.swift */; };
+		6F12D21020EFA380007804CA /* CsvReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12D20F20EFA380007804CA /* CsvReaderUITests.swift */; };
+		6F12D22020EFA466007804CA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12D21F20EFA466007804CA /* Data.swift */; };
+		6F8E448920F3C3D4008E9490 /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6F12D21D20EFA3B1007804CA /* data.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F12D20120EFA380007804CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F12D1E420EFA37E007804CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F12D1EB20EFA37E007804CA;
+			remoteInfo = CsvReader;
+		};
+		6F12D20C20EFA380007804CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F12D1E420EFA37E007804CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F12D1EB20EFA37E007804CA;
+			remoteInfo = CsvReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F12D1EC20EFA37E007804CA /* CsvReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CsvReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F12D1EF20EFA37E007804CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F12D1F120EFA37E007804CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F12D1F420EFA37E007804CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F12D1F620EFA380007804CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F12D1F920EFA380007804CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F12D1FB20EFA380007804CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F12D20020EFA380007804CA /* CsvReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CsvReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F12D20420EFA380007804CA /* CsvReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsvReaderTests.swift; sourceTree = "<group>"; };
+		6F12D20620EFA380007804CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F12D20B20EFA380007804CA /* CsvReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CsvReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F12D20F20EFA380007804CA /* CsvReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CsvReaderUITests.swift; sourceTree = "<group>"; };
+		6F12D21120EFA380007804CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F12D21D20EFA3B1007804CA /* data.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		6F12D21F20EFA466007804CA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		6F8E448720F3C3CE008E9490 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F12D1E920EFA37E007804CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12D1FD20EFA380007804CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12D20820EFA380007804CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F12D1E320EFA37E007804CA = {
+			isa = PBXGroup;
+			children = (
+				6F12D1EE20EFA37E007804CA /* CsvReader */,
+				6F12D20320EFA380007804CA /* CsvReaderTests */,
+				6F12D20E20EFA380007804CA /* CsvReaderUITests */,
+				6F12D1ED20EFA37E007804CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F12D1ED20EFA37E007804CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F12D1EC20EFA37E007804CA /* CsvReader.app */,
+				6F12D20020EFA380007804CA /* CsvReaderTests.xctest */,
+				6F12D20B20EFA380007804CA /* CsvReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F12D1EE20EFA37E007804CA /* CsvReader */ = {
+			isa = PBXGroup;
+			children = (
+				6F12D1EF20EFA37E007804CA /* AppDelegate.swift */,
+				6F12D1F120EFA37E007804CA /* ViewController.swift */,
+				6F12D1F320EFA37E007804CA /* Main.storyboard */,
+				6F12D1F620EFA380007804CA /* Assets.xcassets */,
+				6F12D1F820EFA380007804CA /* LaunchScreen.storyboard */,
+				6F12D1FB20EFA380007804CA /* Info.plist */,
+				6F12D21D20EFA3B1007804CA /* data.csv */,
+				6F8E448720F3C3CE008E9490 /* README.md */,
+				6F12D21F20EFA466007804CA /* Data.swift */,
+			);
+			path = CsvReader;
+			sourceTree = "<group>";
+		};
+		6F12D20320EFA380007804CA /* CsvReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F12D20420EFA380007804CA /* CsvReaderTests.swift */,
+				6F12D20620EFA380007804CA /* Info.plist */,
+			);
+			path = CsvReaderTests;
+			sourceTree = "<group>";
+		};
+		6F12D20E20EFA380007804CA /* CsvReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F12D20F20EFA380007804CA /* CsvReaderUITests.swift */,
+				6F12D21120EFA380007804CA /* Info.plist */,
+			);
+			path = CsvReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F12D1EB20EFA37E007804CA /* CsvReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F12D21420EFA380007804CA /* Build configuration list for PBXNativeTarget "CsvReader" */;
+			buildPhases = (
+				6F12D1E820EFA37E007804CA /* Sources */,
+				6F12D1E920EFA37E007804CA /* Frameworks */,
+				6F12D1EA20EFA37E007804CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CsvReader;
+			productName = CsvReader;
+			productReference = 6F12D1EC20EFA37E007804CA /* CsvReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F12D1FF20EFA380007804CA /* CsvReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F12D21720EFA380007804CA /* Build configuration list for PBXNativeTarget "CsvReaderTests" */;
+			buildPhases = (
+				6F12D1FC20EFA380007804CA /* Sources */,
+				6F12D1FD20EFA380007804CA /* Frameworks */,
+				6F12D1FE20EFA380007804CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F12D20220EFA380007804CA /* PBXTargetDependency */,
+			);
+			name = CsvReaderTests;
+			productName = CsvReaderTests;
+			productReference = 6F12D20020EFA380007804CA /* CsvReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F12D20A20EFA380007804CA /* CsvReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F12D21A20EFA380007804CA /* Build configuration list for PBXNativeTarget "CsvReaderUITests" */;
+			buildPhases = (
+				6F12D20720EFA380007804CA /* Sources */,
+				6F12D20820EFA380007804CA /* Frameworks */,
+				6F12D20920EFA380007804CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F12D20D20EFA380007804CA /* PBXTargetDependency */,
+			);
+			name = CsvReaderUITests;
+			productName = CsvReaderUITests;
+			productReference = 6F12D20B20EFA380007804CA /* CsvReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F12D1E420EFA37E007804CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tree Frog Software";
+				TargetAttributes = {
+					6F12D1EB20EFA37E007804CA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6F12D1FF20EFA380007804CA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6F12D1EB20EFA37E007804CA;
+					};
+					6F12D20A20EFA380007804CA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6F12D1EB20EFA37E007804CA;
+					};
+				};
+			};
+			buildConfigurationList = 6F12D1E720EFA37E007804CA /* Build configuration list for PBXProject "CsvReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F12D1E320EFA37E007804CA;
+			productRefGroup = 6F12D1ED20EFA37E007804CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F12D1EB20EFA37E007804CA /* CsvReader */,
+				6F12D1FF20EFA380007804CA /* CsvReaderTests */,
+				6F12D20A20EFA380007804CA /* CsvReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F12D1EA20EFA37E007804CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F12D1FA20EFA380007804CA /* LaunchScreen.storyboard in Resources */,
+				6F8E448920F3C3D4008E9490 /* data.csv in Resources */,
+				6F12D1F720EFA380007804CA /* Assets.xcassets in Resources */,
+				6F12D1F520EFA37E007804CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12D1FE20EFA380007804CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12D20920EFA380007804CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F12D1E820EFA37E007804CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F12D1F220EFA37E007804CA /* ViewController.swift in Sources */,
+				6F12D22020EFA466007804CA /* Data.swift in Sources */,
+				6F12D1F020EFA37E007804CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12D1FC20EFA380007804CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F12D20520EFA380007804CA /* CsvReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F12D20720EFA380007804CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F12D21020EFA380007804CA /* CsvReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F12D20220EFA380007804CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F12D1EB20EFA37E007804CA /* CsvReader */;
+			targetProxy = 6F12D20120EFA380007804CA /* PBXContainerItemProxy */;
+		};
+		6F12D20D20EFA380007804CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F12D1EB20EFA37E007804CA /* CsvReader */;
+			targetProxy = 6F12D20C20EFA380007804CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F12D1F320EFA37E007804CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F12D1F420EFA37E007804CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F12D1F820EFA380007804CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F12D1F920EFA380007804CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F12D21220EFA380007804CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F12D21320EFA380007804CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F12D21520EFA380007804CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349EZVWPH6;
+				INFOPLIST_FILE = CsvReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefrog.CsvReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F12D21620EFA380007804CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349EZVWPH6;
+				INFOPLIST_FILE = CsvReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefrog.CsvReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F12D21820EFA380007804CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349EZVWPH6;
+				INFOPLIST_FILE = CsvReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefrog.CsvReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CsvReader.app/CsvReader";
+			};
+			name = Debug;
+		};
+		6F12D21920EFA380007804CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349EZVWPH6;
+				INFOPLIST_FILE = CsvReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefrog.CsvReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CsvReader.app/CsvReader";
+			};
+			name = Release;
+		};
+		6F12D21B20EFA380007804CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349EZVWPH6;
+				INFOPLIST_FILE = CsvReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefrog.CsvReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CsvReader;
+			};
+			name = Debug;
+		};
+		6F12D21C20EFA380007804CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349EZVWPH6;
+				INFOPLIST_FILE = CsvReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefrog.CsvReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CsvReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F12D1E720EFA37E007804CA /* Build configuration list for PBXProject "CsvReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F12D21220EFA380007804CA /* Debug */,
+				6F12D21320EFA380007804CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F12D21420EFA380007804CA /* Build configuration list for PBXNativeTarget "CsvReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F12D21520EFA380007804CA /* Debug */,
+				6F12D21620EFA380007804CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F12D21720EFA380007804CA /* Build configuration list for PBXNativeTarget "CsvReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F12D21820EFA380007804CA /* Debug */,
+				6F12D21920EFA380007804CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F12D21A20EFA380007804CA /* Build configuration list for PBXNativeTarget "CsvReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F12D21B20EFA380007804CA /* Debug */,
+				6F12D21C20EFA380007804CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F12D1E420EFA37E007804CA /* Project object */;
+}
