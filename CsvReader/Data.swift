@@ -9,7 +9,6 @@
 import Foundation
 
 class Data {
-    let fileName = "data.csv"
     var name = [String]()
     var value = [String]()
     
